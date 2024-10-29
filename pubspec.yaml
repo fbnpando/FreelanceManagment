@@ -1,0 +1,40 @@
+name: gestion_freelance
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  fluttertoast: ^8.2.8
+  cupertino_icons: ^1.0.8
+  random_string: ^2.3.1
+  sliding_sheet: ^0.5.1
+  page_transition: ^2.0.9
+  intl: ^0.17.0
+  animate_do: ^3.1.2
+  flutter_rating_bar: ^4.0.1
+  hive_flutter: ^1.1.0
+  syncfusion_flutter_charts: ^20.2.44
+  hive: ^2.2.3
+  google_fonts: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.2.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
